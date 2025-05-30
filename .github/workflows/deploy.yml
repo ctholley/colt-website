@@ -3,6 +3,8 @@ name: Deploy Quarto Website
 on:
   push:
     branches: [main]
+  pull_request:
+  workflow_dispatch:
 
 jobs:
   build-deploy:
@@ -13,6 +15,9 @@ jobs:
       pages: write
       id-token: write
 
+    concurrency:
+      group: deploy-quarto
+
     steps:
       - uses: actions/checkout@v4
         with:
@@ -20,7 +25,7 @@ jobs:
 
       - uses: quarto-dev/quarto-actions/setup@v2
         with:
-          version: 'latest'
+          version: latest
 
       - name: Render Quarto Project
         run: quarto render
