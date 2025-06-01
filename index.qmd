@@ -1,6 +1,10 @@
 ---
-title: "test-page"
+title: "About me"
 format: html
 ---
 
-test 4 5 6, test(2) 7, 8, 9
+::: {.callout-note}
+This site is still under construction.
+:::
+
+Hello, welcome to my little personal website! My name is Colt Holley. I am a fisheries research scientist focused on open-source reproducible science for the conservation and management of Pacific salmon and steelhead. Through the R programming language and helpful extensions (RStudio, Tidyverse, etc.), I build analytical tools, data pipelines, and other nerdy things. 

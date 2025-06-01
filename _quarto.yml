@@ -3,14 +3,21 @@ project:
   output-dir: _site
 
 website:
-  title: "colt-website"
+  title: "Colt Holley"
   navbar:
     left:
       - href: index.qmd
         text: "Home"
+      - href: research.qmd
+        text: "Research"
+      - href: cv.qmd
+        text: "CV"
+    tools:
+      - icon: github
+        href: https://github.com/ctholley/colt-website
 
 format:
   html:
-    theme: cosmo
+    theme: spacelab
     css: styles.css
     toc: true
