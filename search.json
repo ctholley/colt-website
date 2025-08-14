@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "About me",
+    "section": "",
+    "text": "Note\n\n\n\nThis site is still under construction.\n\n\nHello, welcome to my little personal website! My name is Colt Holley. I am a fisheries research scientist focused on open-source reproducible science for the conservation and management of Pacific salmon and steelhead. Through the R programming language and helpful extensions (RStudio, Tidyverse, etc.), I build analytical tools, data pipelines, and other nerdy things."
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "Under construction…\nWDFW\nUSGS\nOSU / Coop Unit"
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "Cirriculum Vitae",
+    "section": "",
+    "text": "Under construction…"
+  }
+]
